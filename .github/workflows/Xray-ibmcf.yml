@@ -10,7 +10,7 @@ on:
   repository_dispatch:
   schedule:
     #- cron: 35 21 * * 2
-
+ 
 jobs:
   deploy:
     runs-on: ubuntu-latest
